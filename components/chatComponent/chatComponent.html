@@ -1,0 +1,20 @@
+<div class="row large-margin-top">
+    <form class="col s12" ng-submit="addMessage()">
+      <div class="row">
+        <div class="input-field col s6">
+          <input ng-model="nombre" type="text" class="validate">
+          <label for="first_name">Nombre</label>
+        </div>
+        <div class="input-field col s6">
+          <input ng-model="message" type="text" class="validate">
+          <label for="last_name">Mensaje</label>
+        </div>
+        <div class="input-field col s6">
+          <input ng-model="correo" type="text" class="validate">
+          <label for="last_name">Correo</label>
+        </div>
+
+      </div>
+      <input type="submit" value="Add Message">
+    </form>
+  </div>

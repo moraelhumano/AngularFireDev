@@ -1,0 +1,44 @@
+[
+  {
+    "name": "Ramona",
+    "img": "https://i.pinimg.com/originals/0b/d3/08/0bd308a9bf7dd0127663fb0b63924b00.jpg",
+    "edad": 25,
+    "id": "1"
+  },
+  {
+    "name": "Scott Pilgrim",
+    "img": "https://vignette.wikia.nocookie.net/scottpilgrim-es/images/1/11/250px-Scott_p_by_radiomaru.png/revision/latest?cb=20101127011350&path-prefix=es",
+    "edad": 24,
+    "id": "2"
+  },
+  {
+    "name": "Wallace Wells",
+    "img": "https://pbs.twimg.com/profile_images/575028888805335040/RBklvoc9.jpeg",
+    "edad": 25,
+    "id": "3"
+  },
+  {
+    "name": "Young Neil",
+    "img": "http://orig02.deviantart.net/c816/f/2012/164/8/d/young_neil_by_dianachulavisa-d53cudv.png",
+    "edad": 20,
+    "id": "4"
+  },
+  {
+    "name": "Stacey Pilgrim",
+    "img": "https://vignette4.wikia.nocookie.net/scottpilgrim-es/images/0/04/Stacey_Pilgrim.jpg/revision/latest?cb=20160624171520&path-prefix=es",
+    "edad": 19,
+    "id": "5"
+  },
+  {
+    "name": "Julie Powers",
+    "img": "http://static.tvtropes.org/pmwiki/pub/images/694px-Julie_Powers_4035.jpg",
+    "edad": 24,
+    "id": "6"
+  },
+  {
+    "name": "Knives Chau",
+    "img": "https://vignette3.wikia.nocookie.net/scottpilgrim-es/images/c/c6/Scott-Pilgrim-Knives-Chau-scott-pilgrim-11003517-393-500.jpg/revision/latest/scale-to-width-down/250?cb=20130710232118&path-prefix=es",
+    "edad": 17,
+    "id": "7"
+  }
+]

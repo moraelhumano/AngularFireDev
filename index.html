@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>AngularFire</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+  <link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+
+
+  <nav-component></nav-component>
+
+  <div ng-view></div>
+
+
+
+
+  <!-- Materialize -->
+    <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/js/materialize.js"></script>
+
+    <!-- Angularjs-Firebase  -->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular-route.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular-resource.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/3.6.6/firebase.js"></script>
+    <script src="https://cdn.firebase.com/libs/angularfire/2.3.0/angularfire.js"></script>
+
+    <script src="app.js"></script>
+    <script src="routes.js"></script>
+    <script src="components/navComponent/navCtrl.js"></script>
+    <script src="components/mainComponent/mainCtrl.js"></script>
+    <script src="components/exComponent/exCtrl.js"></script>
+    <script src="components/chatComponent/chatCtrl.js"></script>
+    <script src="components/adminComponent/adminCtrl.js"></script>
+    <script src="factory/factoryCharacters.js"></script>
+    <script src="factory/ex.js"></script>
+    <script src="factory/factoryChat.js"></script>
+
+</body>
+</html>

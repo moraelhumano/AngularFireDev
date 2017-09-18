@@ -1,0 +1,44 @@
+[
+  {
+    "name": "Gideon Graves",
+    "img": "https://vignette1.wikia.nocookie.net/scottpilgrim/images/9/92/Gideon.png/revision/latest?cb=20150603163140",
+    "edad": 30,
+    "id": "1"
+  },
+  {
+    "name": "matthew patel",
+    "img": "https://pbs.twimg.com/profile_images/378800000450056792/37b196069e721c876b2e83e64aef0ac5.jpeg",
+    "edad": 24,
+    "id": "2"
+  },
+  {
+    "name": "Lucas Lee",
+    "img": "http://vignette4.wikia.nocookie.net/villains/images/d/d9/Lucas_Lee_%28comics%29.PNG/revision/latest?cb=20110701192606",
+    "edad": 26,
+    "id": "3"
+  },
+  {
+    "name": "Todd Ingram",
+    "img": "https://vignette4.wikia.nocookie.net/villains/images/d/d1/Todd_Ingram_%28comic_book%29.jpg/revision/latest?cb=20110701203544",
+    "edad": 25,
+    "id": "4"
+  },
+  {
+    "name": "Roxanne Roxie Ritcher",
+    "img": "https://static.comicvine.com/uploads/scale_small/4/47318/1235925-roxy_pilgrim.jpg",
+    "edad": 26,
+    "id": "5"
+  },
+  {
+    "name": "Kyle Katayanagi",
+    "img": "https://static.comicvine.com/uploads/square_small/4/47318/1014024-kyle.jpg",
+    "edad": 27,
+    "id": "6"
+  },
+  {
+    "name": "Ken Katayanagi",
+    "img": "https://static.comicvine.com/uploads/square_small/4/47318/1014021-ken.jpg",
+    "edad": 27,
+    "id": "7"
+  }
+]

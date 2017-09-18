@@ -1,0 +1,14 @@
+img{
+  width: 100% !important;
+  display: inline-block !important;
+}
+
+.container_principal{
+  width: 400px;
+  margin: 0;
+  display: inline-block;
+}
+
+.large-margin-top{
+  margin-top: 4rem;
+}
