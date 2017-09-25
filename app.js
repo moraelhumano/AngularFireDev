@@ -5,9 +5,9 @@
         .module('myApp', ['ngRoute','ngResource' ,'firebase'])
         .config(function() {
             let config = {
-                apiKey: "AIzaSyDxLSITJcdWINMHR-Q21kwFL2nlujj3TGs",
-                authDomain: "prueba-646fe.firebaseapp.com",
-                databaseURL: "https://prueba-646fe.firebaseio.com"
+              apiKey: "AIzaSyAM0n2N5U7l4pHxscQ1Pcv_baYPTkMfgq4",
+              authDomain: "desarrolloweb-1bcb8.firebaseapp.com",
+              databaseURL: "https://desarrolloweb-1bcb8.firebaseio.com",
             }
             firebase.initializeApp(config)
 

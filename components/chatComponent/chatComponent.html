@@ -2,18 +2,21 @@
     <form class="col s12" ng-submit="addMessage()">
       <div class="row">
         <div class="input-field col s6">
-          <input ng-model="nombre" type="text" class="validate">
-          <label for="first_name">Nombre</label>
+          <input ng-model="titulo" type="text" class="validate">
+          <label for="first_name">Titulo</label>
         </div>
         <div class="input-field col s6">
-          <input ng-model="message" type="text" class="validate">
-          <label for="last_name">Mensaje</label>
+          <input ng-model="autor" type="text" class="validate">
+          <label for="last_name">Autor</label>
         </div>
         <div class="input-field col s6">
-          <input ng-model="correo" type="text" class="validate">
-          <label for="last_name">Correo</label>
+          <input ng-model="fecha" type="date" class="validate">
+          <label for="last_name">Fecha de compra</label>
         </div>
-
+        <div class="input-field col s6">
+          <input ng-model="link" type="text" class="validate">
+          <label for="last_name">Link de wikipedia</label>
+        </div>
       </div>
       <input type="submit" value="Add Message">
     </form>

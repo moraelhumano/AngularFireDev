@@ -14,8 +14,7 @@
         var vm = this;
         vm.chatData = chatData;
         $scope.messages = chatData;
-
-
+      
 
 
 
@@ -28,15 +27,17 @@
          // calling $add on a synchronized array is like Array.push(),
          // except that it saves the changes to our database!
          $scope.messages.$add({
-           nombre: $scope.nombre,
-           message: $scope.message,
-           correo: $scope.correo
+           titulo: $scope.titulo,
+           autor: $scope.autor,
+           fecha: $scope.fecha,
+           link: $scope.link
          });
 
          // reset the message input
-         $scope.message = "";
-         $scope.nombre = "";
-         $scope.correo = "";
+         $scope.titulo = "";
+         $scope.autor = "";
+         $scope.fecha = "";
+         $scope.link = "";
        };
 
 

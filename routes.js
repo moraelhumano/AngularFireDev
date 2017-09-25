@@ -11,19 +11,11 @@
   function config($routeProvider) {
 
     $routeProvider
-      .when('/main', {
-        template: '<main-component></main-component>',
-      })
-
-      .when('/ex', {
-        template: '<ex-component></ex-component>',
-      })
-
-      .when('/chat', {
+      .when('/input', {
         template: '<chat-component></chat-component>',
       })
 
-      .when('/admin', {
+      .when('/books', {
         template: '<admin-component></admin-component>',
       })
       /*.when('/task/:id', {
@@ -31,7 +23,7 @@
       })*/
 
       .otherwise({
-        redirectTo: '/main'
+        redirectTo: '/input'
       })
   }
 })()

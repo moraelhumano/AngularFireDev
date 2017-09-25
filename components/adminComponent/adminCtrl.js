@@ -9,12 +9,32 @@
             controllerAs: 'vm'
         });
 
-<<<<<<< HEAD
         adminCtrl.$inject = ['chatData','$firebaseAuth', '$scope']
         function adminCtrl(chatData,$firebaseAuth, $scope) {
         var vm = this;
         var auth = $firebaseAuth();
         vm.chatData = chatData;
+
+        console.log(vm.chatData)
+
+
+        auth.$signInWithPopup("google").then(function (result) {
+
+            // This gives you a Google Access Token. You can use it to access the Google API.
+            var token = result.credential.accessToken;
+
+            // The signed-in user info.
+            var user = result.user;
+
+            // Loged in correctly
+            alert('Inicio de sesión conseguido!');
+
+        })
+        .catch(function (error) {
+
+            // Error in login
+            console.error(error)
+        })
 
 
 
@@ -31,10 +51,10 @@
       });
     };*/
 
-    var provider = new firebase.auth.GoogleAuthProvider();
+    //var provider = new firebase.auth.GoogleAuthProvider();
 
 
-    function login(){
+    /*function login(){
       firebase.auth().signInWithRedirect(provider);
   firebase.auth().getRedirectResult().then(function(result) {
   if (result.credential) {
@@ -93,7 +113,7 @@
                   $scope.error = error;
             });
           };*/
-
+/*
             var provider = new firebase.auth.GoogleAuthProvider();
 
 
@@ -117,10 +137,10 @@
           });
 
             $('.collapsible').collapsible();
-
+*/
 
             console.log(chatData)
->>>>>>> 19e6dd28ffd37765c4a95189e8891f83737b29d7
+
 
     }
 
